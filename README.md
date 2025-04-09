@@ -44,16 +44,16 @@ This project involves the development and deployment of a secure, custom web app
 
 git clone https://github.com/yourusername/your-repo.git
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
    
 cd your-repo
 
-5. Build and run the Docker container (if applicable):
+3. Build and run the Docker container (if applicable):
    
 docker build -t your-app .
 docker run -d -p 80:80 your-app
 
-7. Deploy the container on Cloudflare:
+5. Deploy the container on Cloudflare:
 * Use Cloudflare’s tools to deploy and manage your application, or host it on your server and route traffic through Cloudflare.
 
 **Usage**
