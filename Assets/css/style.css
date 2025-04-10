@@ -85,6 +85,13 @@ header a {
 
 }
 
+.circular-image {
+    width: 375px;
+    height: 375px;
+    object-fit: cover; /* Ensures the image fills the circle without stretching */
+    border-radius: 50%;
+}
+
 .intro img{
   border-radius: 50%;
   float: left;
