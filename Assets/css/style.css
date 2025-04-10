@@ -11,8 +11,8 @@ html {
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #121212;
-  color: #f4f4f4;
+  background-color: #f4f4f4; /* Lighter background color */
+  color: #333; /* Dark gray text for readability */
   line-height: 1.6;
 }
 
@@ -21,15 +21,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f1f1f;
+  background-color: #ffffff; /* White background for a clean look */
   padding: 1rem 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
 }
 
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #00ffff;
+  color: #333; /* Dark text color */
 }
 
 .nav-links {
@@ -39,13 +39,13 @@ body {
 }
 
 .nav-links li a {
-  color: #f4f4f4;
+  color: #333; /* Dark text */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #00ffff;
+  color: #007bff; /* Simple blue for hover effect */
 }
 
 /* Sections */
@@ -58,13 +58,13 @@ body {
 .section-title {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #00ffff;
+  color: #007bff; /* Blue for section titles */
   text-align: center;
 }
 
 /* Hero/Intro Section with Parallax */
 .intro {
-  background-image: url('../images/Background.jpg'); /* Replace with your hero image */
+  background-image: url('../images/Background.jpg'); /* Keep your hero image */
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -73,9 +73,9 @@ body {
 }
 
 .intro-overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
   padding: 4rem 2rem;
-  min-height: 70vh; /* Less tall */
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,16 +94,14 @@ body {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border: 4px solid #00ffff;
+  border: 4px solid #007bff; /* Simple blue border */
   margin-bottom: 1.5rem;
 }
 
 .intro-text p {
   font-size: 1.1rem;
-  color: #fff;
+  color: #fff; /* White text for intro section */
 }
-
-
 
 /* Projects */
 .projects {
@@ -112,108 +110,7 @@ body {
   gap: 3rem;
 }
 
-.project {
+.project-card {
   display: flex;
   flex-direction: column;
-  background-color: #1e1e1e;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0, 255, 255, 0.1);
-}
-
-.project-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.project-details {
-  padding: 1.5rem;
-}
-
-.project-details h3 {
-  margin-bottom: 0.5rem;
-  color: #00ffff;
-}
-
-.project-details p {
-  margin-bottom: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #00ffff;
-  color: #121212;
-  padding: 0.6rem 1.2rem;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #00cccc;
-}
-
-/* Contact */
-.contact {
-  text-align: center;
-}
-
-.contact-links {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #1f1f1f;
-  color: #aaa;
-  font-size: 0.9rem;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Intro Section with background */
-.intro {
-  background-image: url('../images/Background.jpg'); /* replace with your actual image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.intro-overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* Optional: darken image for text readability */
-  padding: 4rem 2rem;
-}
-
-.intro-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 900px;
-  margin: auto;
-}
-
-.profile-pic {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 4px solid #00ffff;
-  margin-bottom: 1.5rem;
-}
-
-.intro-text p {
-  font-size: 1.1rem;
-  color: #fff;
-}
+  background-color: #ffffff; /* White*
