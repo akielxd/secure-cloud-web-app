@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akiel Reece | Cybersecurity Portfolio</title>
   <link rel="stylesheet" href="Assets/css/style.css" />
+  <!-- AOS Scroll Animation Library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -21,20 +24,22 @@
   </header>
 
   <!-- Hero / Intro Section -->
- <section id="about" class="section intro">
+ <!-- Hero Section -->
+<section id="about" class="section intro">
   <div class="intro-overlay">
-    <div class="intro-content">
-      <img src="Assets/images/profilephoto.jpg" alt="Akiel Reece" class="profile-pic" />
-      <div class="intro-text">
+    <div class="intro-content" data-aos="fade-up">
+      <img src="Assets/images/profilephoto.jpg" alt="Akiel Reece" class="profile-pic" data-aos="zoom-in" data-aos-delay="200" />
+      <div class="intro-text" data-aos="fade-up" data-aos-delay="400">
         <h2>Hi, I'm Akiel 👋</h2>
         <p>
-          I’m a cybersecurity enthusiast and problem-solver passionate about protecting systems and data.
+          I’m a cybersecurity enthusiast and problem-solver passionate about protecting systems and data.<br />
           Check out a few of my recent projects below.
         </p>
       </div>
     </div>
   </div>
 </section>
+
 
   <!-- Projects Section -->
   <section id="projects" class="section projects">
@@ -77,5 +82,11 @@
   <footer>
     <p>&copy; 2025 Akiel Reece. All rights reserved.</p>
   </footer>
+  <!-- AOS Script -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
