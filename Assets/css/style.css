@@ -73,13 +73,14 @@ body {
 }
 
 .intro-overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* Optional: darken image for text readability */
-  padding: 6rem 2rem;
-  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4rem 2rem;          /* Reduced padding */
+  min-height: 70vh;            /* Down from 100vh */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .intro-content {
   display: flex;
