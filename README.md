@@ -4,7 +4,7 @@ This project involves the development and deployment of a secure, custom web app
 
 **Check out the live demo of the web app by clicking the link below**:
 
-- [Live Demo]([https://your-custom-domain.com](https://secure-cloud-web-app.pages.dev/))
+- [Live Demo](https://secure-cloud-web-app.pages.dev/)
 
 **Key Features**
 * **Custom Web Application**: A secure, containerized application tailored for business client needs.
