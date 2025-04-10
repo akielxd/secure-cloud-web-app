@@ -103,7 +103,7 @@ body {
   color: #fff; /* White text for intro section */
 }
 
-/* Projects */
+/* Projects Section */
 .projects {
   display: flex;
   flex-direction: column;
@@ -113,13 +113,7 @@ body {
 .project-card {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff; /* White*
-
-  /* Project Images */
-.project-card {
-  display: flex;
-  flex-direction: column;
-  background-color: #1e1e1e;
+  background-color: #ffffff; /* White background for project card */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 255, 255, 0.1);
@@ -138,7 +132,43 @@ body {
   object-position: center; /* Center the image */
 }
 
-/* Responsive fix for mobile devices */
+.project-info {
+  padding: 1.5rem;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.project-info ul {
+  list-style: none;
+  padding-left: 0; /* Remove default padding */
+  margin-left: 0; /* Ensure no margin on left side */
+  list-style-position: inside; /* Align bullet points with text */
+}
+
+.project-info li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #007bff; /* Blue color for links */
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Fix for Mobile Devices */
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
@@ -150,5 +180,17 @@ body {
 
   .project-info {
     padding: 1rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-info p {
+    font-size: 1rem;
+  }
+
+  .project-info li {
+    font-size: 1rem;
   }
 }
