@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akiel Reece | Cybersecurity Portfolio</title>
   <link rel="stylesheet" href="Assets/css/style.css" />
-  <!-- AOS Scroll Animation Library -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
   <!-- Navigation -->
   <header>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
       <h1 class="logo">Akiel Reece</h1>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#downloads">Downloads</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -26,7 +26,7 @@
   <section id="about" class="section intro">
     <div class="intro-overlay">
       <div class="intro-content" data-aos="fade-up">
-        <img src="Assets/images/profilephoto.jpg" alt="Akiel Reece" class="profile-pic" data-aos="zoom-in" data-aos-delay="200" />
+        <img src="Assets/images/profilephoto.jpg" alt="Photo of Akiel Reece" class="profile-pic" data-aos="zoom-in" data-aos-delay="200" />
         <div class="intro-text" data-aos="fade-up" data-aos-delay="400">
           <h2>Hi, I'm Akiel 👋</h2>
           <p>
@@ -42,10 +42,9 @@
   <section id="projects" class="section projects">
     <h2 class="section-title">Featured Projects</h2>
 
-    <!-- Project 1: Secure Web App -->
     <div class="project-card" data-aos="fade-up" data-aos-delay="200">
       <div class="project-image">
-        <img src="Assets/images/Stock-photo.png" alt="Secure Web App">
+        <img src="Assets/images/Stock-photo.png" alt="Secure Web App Screenshot">
       </div>
       <div class="project-info">
         <h3>Secure Business Web Application</h3>
@@ -59,14 +58,13 @@
           <li>📦 Containerized with Docker for portability</li>
           <li>📊 Real-time monitoring and insights via Cloudflare</li>
         </ul>
-        <a href="https://github.com/akielxd/secure-cloud-web-app" target="_blank" class="project-link">View on GitHub</a>
+        <a href="https://github.com/akielxd/secure-cloud-web-app" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
       </div>
     </div>
 
-    <!-- Project 2: Rekall Corporation Penetration Test -->
     <div class="project-card" data-aos="fade-up" data-aos-delay="300">
       <div class="project-image">
-        <img src="Assets/images/cyber-report.png" alt="Rekall Penetration Test Report">
+        <img src="Assets/images/cyber-report.png" alt="Rekall Corporation Penetration Test Report Screenshot">
       </div>
       <div class="project-info">
         <h3>Rekall Corporation Penetration Test</h3>
@@ -79,23 +77,20 @@
           <li>🛠️ Tools: Nmap, Burp Suite, Gobuster</li>
           <li>🛡️ Remediation guidance and executive summary</li>
         </ul>
-        <a href="https://github.com/akielxd/Rekall_Penetration_Test_Report" target="_blank" class="project-link">View Report on GitHub</a>
+        <a href="https://github.com/akielxd/Rekall_Penetration_Test_Report" target="_blank" rel="noopener noreferrer" class="project-link">View Report on GitHub</a>
       </div>
     </div>
   </section>
-<!-- Downloads Section -->
-<section id="downloads" class="section downloads">
-  <h2 class="section-title">Resume & Certifications</h2>
-  <p>You can download my resume or view some of the certifications I’ve earned.</p>
-  <div class="download-links">
-    <a href="Assets/docs/Akiel_Reece_Resume.pdf" class="btn" download>📄 Download My Resume</a>
-    <a href="https://coursera.org/share/26d737efab603fa4c2ac3c182a7b2151" target="_blank" class="btn">🎓 Google IT Support Certificate</a>
-    <!-- <a href="link-to-cert" target="_blank" class="btn">✅ CompTIA Security+</a>
-    <a href="link-to-cert" target="_blank" class="btn">☁️ CompTIA Cloud+ (In Progress)</a> -->
 
-  </div>
-</section>
-
+  <!-- Downloads Section -->
+  <section id="downloads" class="section downloads">
+    <h2 class="section-title">Resume & Certifications</h2>
+    <p>You can download my resume or view some of the certifications I’ve earned.</p>
+    <div class="download-links">
+      <a href="Assets/docs/Akiel_Reece_Resume.pdf" class="btn" download>📄 Download My Resume</a>
+      <a href="https://coursera.org/share/26d737efab603fa4c2ac3c182a7b2151" target="_blank" rel="noopener noreferrer" class="btn">🎓 Google IT Support Certificate</a>
+    </div>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact" class="section contact">
@@ -103,7 +98,7 @@
     <p>Feel free to reach out if you're interested in collaborating or just want to connect!</p>
     <div class="contact-links">
       <a href="mailto:akielrc@gmail.com" class="btn">Email Me</a>
-      <a href="https://www.linkedin.com/in/akielreece/" target="_blank" class="btn">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/akielreece/" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
     </div>
   </section>
 
@@ -112,7 +107,7 @@
     <p>&copy; 2025 Akiel Reece. All rights reserved.</p>
   </footer>
 
-  <!-- AOS Script -->
+  <!-- AOS Scroll Script -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
