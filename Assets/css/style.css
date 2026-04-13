@@ -175,12 +175,13 @@ body {
 }
 
 /* Downloads */
-.download-links {
+.downloads {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .btn {
@@ -204,6 +205,7 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
   margin-top: 1rem;
+  text-align: center;
 }
 
 /* Footer */
