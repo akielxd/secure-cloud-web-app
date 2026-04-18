@@ -177,6 +177,8 @@ body {
 /* Downloads */
 .download-links {
 display: flex;
+justify-content: center;
+gap: 1rem;
 flex-wrap: wrap;
 margin-top: 1rem;
 }
