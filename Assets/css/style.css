@@ -175,13 +175,10 @@ body {
 }
 
 /* Downloads */
-.downloads {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-  text-align: center;
+.download-links {
+display: flex;
+flex-wrap: wrap;
+margin-top: 1rem;
 }
 
 .btn {
